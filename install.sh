@@ -39,12 +39,7 @@ systemctl start fail2ban >> $LOG_FILE 2>&1
 
 # Docker installation
 echo "Docker installation..." | tee -a $LOG_FILE
-if [ -f "./docker-install.sh" ]; then
-    chmod +x ./docker-install.sh
-    ./docker-install.sh >> $LOG_FILE 2>&1
-else
-    echo "Error: ./docker-install.sh not found!" | tee -a $LOG_FILE
-fi
+./docker-install.sh >> $LOG_FILE 2>&1
 
 # Creating it-tools container
 echo "Creating it-tools container..." | tee -a $LOG_FILE
