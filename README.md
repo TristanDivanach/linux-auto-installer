@@ -7,11 +7,13 @@ This script installs and configures essential tools, security packages, and basi
 
 ## Features
 
-- ✅ System update and upgrade  
-- 🧰 Installation of essential tools (`git`, `curl`, `htop`, `tree`)  
-- 🛡️ Firewall configuration with **UFW**  
-- 🚨 Brute-force protection with **Fail2Ban**  
-- 📝 Full installation logs for easy debugging  
+- System update and upgrade  
+- Installation of essential tools (`git`, `curl`, `htop`, `tree`)  
+- Firewall configuration with **UFW**  
+- Brute-force protection with **Fail2Ban**  
+- Full installation logs for easy debugging
+- Docker installation
+- It-tools container creation (port 7474)
 
 ---
 
